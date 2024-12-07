@@ -8,20 +8,19 @@
 <body>
     <blockquote>
         L'IA Snapchat me fait peur. Elle me dit que je ne mange pas assez sainement ou que je sors trop.
+        Elle m'envoie un message : "Viens au park de la ref". Je dois y aller.
+        <br>Mermoud : "C'est toi ?" - "Oui, c'est moi, c'est un prank."
     </blockquote>
-    <button onclick="ajouterTexte()">Suite</button>
-    <div id="conteneurTexte"></div> <!-- Conteneur où le texte sera ajouté -->
+    <h1>FIN</h1>
 
+    <!-- Bouton pour redirection -->
+    <button onclick="redirigerVersChaine()">Ma chaîne</button>
+
+    <!-- Script JavaScript pour la redirection -->
     <script>
-        function ajouterTexte() {
-            // Sélectionne l'élément <div> avec l'id "conteneurTexte"
-            let conteneur = document.getElementById("conteneurTexte");
-            // Crée un nouveau paragraphe
-            let nouveauParagraphe = document.createElement("p");
-            // Ajoute du texte au paragraphe
-            nouveauParagraphe.textContent = "Là-bas, je vois mon pote qui me dit : 'C'est un prank.'";
-            // Ajoute le paragraphe au conteneur
-            conteneur.appendChild(nouveauParagraphe);
+        function redirigerVersChaine() {
+            // Redirige vers la chaîne YouTube
+            window.location.href = "https://www.youtube.com/@kataori42";
         }
     </script>
 </body>
