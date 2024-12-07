@@ -12,20 +12,7 @@
         Elle m'envoie un message : "Viens au park de la ref". Je dois y aller.
         <br>Mermoud : "C'est toi ?" - "Oui, c'est moi, c'est un prank."
     </blockquote>
-
-    <!-- Titre de fin -->
-    <h1>FIN</h1>
-
-    <!-- Bouton pour redirection -->
-    <button id="boutonRedirection">Ma chaîne</button>
-
-    <!-- Script JavaScript pour gérer le bouton -->
-    <script>
-        // Ajoute un événement pour rediriger vers la chaîne YouTube
-        document.getElementById("boutonRedirection").addEventListener("click", function() {
-            window.location.href = "https://www.youtube.com/@kataori42"; // Remplace par l'URL correcte de ta chaîne
-        });
-    </script>
+alert("ma chaine est kataori42")
 </body>
 </html>
 
