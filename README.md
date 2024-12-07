@@ -13,16 +13,7 @@
     </blockquote>
     <h1>FIN</h1>
 
-    <!-- Bouton pour redirection -->
-    <button onclick="redirigerVersChaine()">Ma chaîne</button>
-
-    <!-- Script JavaScript pour la redirection -->
-    <script>
-        function redirigerVersChaine() {
-            // Redirige vers la chaîne YouTube
-            window.location.href = "https://www.youtube.com/@kataori42";
-        }
-    </script>
+<button>ma chaine est @kataori42<button>
 </body>
 </html>
 
